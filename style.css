@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+    
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+section {
+    display: block;
+
+}
+.heading {
+    box-shadow: rgb(59, 19, 223) 0px 20px 30px -10px;
+    border-radius:25px ;
+    padding: 0 10px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 60px; 
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #a6e929, #0d0d78); /* Define your gradient colors and direction */
+    background-clip: text; 
+    /* Standard property for clipping */
+    color: transparent; /* Standard property for transparent text color */
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+button {
+    width: 10rem;
+    font-size: large;
+    background-clip: text;
+}
+button:hover {
+    cursor: pointer;
+}
+  
+#btnNo_1 {
+    box-shadow: rgb(5, 5, 7) 0px 9px 20px, rgb(10, 9, 11) 0px 5px 5px;
+    padding:15px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border: none;
+    /* background-color: #03A6A1; */
+}
+
+#btnNo_2 {
+    box-shadow: rgb(5, 5, 7) 0px 9px 20px, rgb(10, 9, 11) 0px 5px 5px;
+    padding:15px;
+    border-radius: 25px;
+    border: none;
+    /* background-color:  #FF9B2F; */
+}
+h2 {
+    margin-top: 25px;
+}
+.copyCode {
+    margin-top: 10px;
+    position: absolute;
+    text-align: center;
+}
